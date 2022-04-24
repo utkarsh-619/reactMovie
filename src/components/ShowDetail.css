@@ -1,0 +1,42 @@
+.full-detail-cover{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 300px auto;
+    grid-gap: 50px;
+}
+
+
+
+.full-image img{
+    width: 300px;
+}
+
+.key{
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 8px;
+}
+
+.value{
+    font-size: 19px;
+}
+
+@media only screen and (max-width: 675px) {
+    /* For mobile phones: */
+    .full-detail-cover {
+        grid-template-columns: 180px auto;
+        grid-gap: 10px;
+        margin: 20px 10px;
+    }
+    .full-image img {
+        width: 180px;
+        height: 300px;
+    }
+    .key {
+        font-size: 15px;
+    }
+    
+    .value {
+        font-size: 15px;
+    }
+}
